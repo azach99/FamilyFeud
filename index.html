@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Family Feud</title>
+	<link rel="stylesheet" type="text/css" href="Styling/indexStyling.css">
+	<!--<script src = "script.js"></script>-->
+</head>
+<body>
+	<input id = "textbox1" type = "text" class = "text" style = "color:white; font-size: 30px; text-align: center">
+	<!--<br></br>-->
+	<button class = "confirm" style = "color: white; font-size: 30px;" onClick = "revealQuestion();">Confirm</button>
+	<button class = "wrong" style = "color: white; font-size: 30px;" onClick = "playWrong();">WRONG!</button>
+	<!--
+	<button class = "buzzer" style = "color: white; font-size: 30px;" onClick = "playBuzzer();">ANSWER</button>
+	<button class = "short" style = "color: white; font-size: 30px;" onClick = "playShortTheme();">PLAY!</button>-->
+	<div class = "container">
+		<center>
+			<center><h1 id = "displayQuestion">FASA FAMILY FEUD (Adult Edition)</h1></center>
+		<div class = "total" id = "total">
+			<h1 id = "totalGUI">0</h1>
+		</div>
+		</center>
+		<div class = "row1" onClick = "revealAnswer1();">
+			<h1 id = "one">1</h1>
+		</div>
+		<div class = "row1" onClick = "revealAnswer5();">
+			<h1 id = "five">5</h1>
+		</div>
+		<div class = "row2" onClick = "revealAnswer2();">
+			<h1 id = "two">2</h1>
+		</div>
+		<div class = "row2" onClick = "revealAnswer6();">
+			<h1 id = "six">6</h1>
+		</div>
+		<div class = "row3" onClick = "revealAnswer3();">
+			<h1 id = "three">3</h1>
+		</div>
+		<div class = "row3" onClick = "revealAnswer7();">
+			<h1 id = "seven">7</h1>
+		</div>
+		<div class = "row4" onClick = "revealAnswer4();">
+			<h1 id = "four">4</h1>
+		</div>
+		<div class = "row4" onClick = "revealAnswer8();">
+			<h1 id = "eight">8</h1>
+		</div>
+		<!--<center><h1 id = "displayQuestion"></h1></center>-->
+	</div>
+	<script src = "script.js"></script>
+</body>
+</html>
